@@ -148,3 +148,10 @@ itemCountSpan.innerHTML = 0
 uncheckedCountSpan.innerHTML = 0
 }
 
+
+function createReport(){
+  
+  //test
+
+  console.log('creating report')
+}
