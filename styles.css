@@ -2,10 +2,19 @@
   box-sizing: border-box;
 }
 
-html, body {
-  background-color: #eee;
+#downloadlink {
+  text-align: center;
+  color: white;
+}
+
+html,
+body {
+  background-color: #253031;
   margin: 0;
   padding: 0;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -29,23 +38,37 @@ ul {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #2978a0;
   height: 100vh;
+  border-radius: 25px;
 }
 
-.title, .controls, .button {
+.title,
+.controls,
+.button {
   flex: none;
 }
 
 .button {
   padding: 10px 20px;
-  width:200px;
+  width: 200px;
+  border-radius: 50px;
+  background: #315659;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #253031;
+  opacity: 0.9;
+  transition: all 0.5s ease-in-out;
 }
 
 .btn-span {
   text-align: center;
 }
-
 
 .todo-list {
   flex: 1 1 0;
@@ -74,4 +97,10 @@ ul {
 input#myTask {
   height: 7%;
   margin: 20px;
+}
+
+.mailbtn {
+  padding-top: 15px;
+  /* display: none; */
+  align-self: center;
 }

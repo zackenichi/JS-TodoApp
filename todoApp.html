@@ -10,13 +10,17 @@
       <div class="flow-right controls">
         <span>Task count: <span id="item-count">0</span></span>
         <span>Unfinished tasks: <span id="unchecked-count">0</span></span>
+        
       </div>
       <input type="text" id="myTask" value="" placeholder="Please enter a task">
       <div class="btn-span"> 
       <button class="button" onClick="newTodo()">New TODO</button>
-     <button class="button" onClick="createReport()">Send Report</button>
+     <!-- <button class="button" onClick="createReport()">Make Report</button> -->
       <button class="button" onClick="deleteTasks()">Clear</button>
       </div>
+      <span class="mailbtn" id='target'> 
+        
+      </span>
       <ul id="todo-list" class="todo-list"></ul>
 
       <p id="demo"></p>
